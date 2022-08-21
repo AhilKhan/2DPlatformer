@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.6f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/Unity Projects/Mario
+C:/2D Platformer/2DPlatformer/Mario
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-51131
-Successfully changed project path to: C:/Unity Projects/Mario
-C:/Unity Projects/Mario
+54293
+Successfully changed project path to: C:/2D Platformer/2DPlatformer/Mario
+C:/2D Platformer/2DPlatformer/Mario
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,11 +47,11 @@ C:/Unity Projects/Mario
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 92.72 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 120.84 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.6f1 (7da38d85baf6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Unity Projects/Mario/Assets
+[Subsystems] Discovering subsystems at path C:/2D Platformer/2DPlatformer/Mario/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -63,65 +63,65 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56108
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56756
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004708 seconds.
+Registered in 0.006433 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 156.37 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 187.99 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.937 seconds
+- Completed reload, in  1.622 seconds
 Domain Reload Profiling:
-	ReloadAssembly (937ms)
-		BeginReloadAssembly (101ms)
+	ReloadAssembly (1622ms)
+		BeginReloadAssembly (72ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (727ms)
-			LoadAssemblies (101ms)
+		EndReloadAssembly (1219ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (141ms)
+			SetupTypeCache (363ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (486ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (697ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (87ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (156ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (145ms)
-				ProcessInitializeOnLoadMethodAttributes (95ms)
+				InitializePlatformSupportModulesInManaged (212ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (188ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (149ms)
+				ProcessInitializeOnLoadMethodAttributes (146ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.011546 seconds.
+Registered in 0.027970 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Unity Projects\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Unity Projects\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\2D Platformer\2DPlatformer\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\2D Platformer\2DPlatformer\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 89.12 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 121.19 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 System.Exception: Error! Visual Scripting: couldn't find visual scripting package
-  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in C:\Unity Projects\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
-  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in C:\Unity Projects\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
-  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in C:\Unity Projects\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
-  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in C:\Unity Projects\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
-  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in C:\Unity Projects\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
-  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in C:\Unity Projects\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
-  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in C:\Unity Projects\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
-  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in C:\Unity Projects\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
-  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00032] in C:\Unity Projects\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:48 
-  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in C:\Unity Projects\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in C:\2D Platformer\2DPlatformer\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in C:\2D Platformer\2DPlatformer\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in C:\2D Platformer\2DPlatformer\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in C:\2D Platformer\2DPlatformer\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in C:\2D Platformer\2DPlatformer\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in C:\2D Platformer\2DPlatformer\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in C:\2D Platformer\2DPlatformer\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in C:\2D Platformer\2DPlatformer\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x00032] in C:\2D Platformer\2DPlatformer\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:48 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in C:\2D Platformer\2DPlatformer\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
@@ -129,43 +129,43 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.455 seconds
+- Completed reload, in  2.431 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1456ms)
-		BeginReloadAssembly (188ms)
+	ReloadAssembly (2432ms)
+		BeginReloadAssembly (287ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (119ms)
-		EndReloadAssembly (1163ms)
-			LoadAssemblies (74ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (197ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (796ms)
+			CreateAndSetChildDomain (143ms)
+		EndReloadAssembly (1979ms)
+			LoadAssemblies (150ms)
+			RebuildTransferFunctionScriptingTraits (5ms)
+			SetupTypeCache (375ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (1338ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (89ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (548ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
-				AfterProcessingInitializeOnLoad (7ms)
+				RefreshPlugins (121ms)
+				BeforeProcessingInitializeOnLoad (170ms)
+				ProcessInitializeOnLoadAttributes (952ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
+				AfterProcessingInitializeOnLoad (13ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.90 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4077 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 38 unused Assets / (55.4 KB). Loaded Objects now: 4537.
-Memory consumption went from 153.5 MB to 153.5 MB.
-Total: 15.589100 ms (FindLiveObjects: 0.270600 ms CreateObjectMapping: 0.198500 ms MarkObjects: 15.039300 ms  DeleteObjects: 0.079600 ms)
+Unloading 38 unused Assets / (55.7 KB). Loaded Objects now: 4537.
+Memory consumption went from 153.6 MB to 153.5 MB.
+Total: 15.546200 ms (FindLiveObjects: 0.353400 ms CreateObjectMapping: 0.118000 ms MarkObjects: 14.934000 ms  DeleteObjects: 0.138800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -180,25 +180,25 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004897 seconds.
+Registered in 0.006299 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Unity Projects\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Unity Projects\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\2D Platformer\2DPlatformer\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\2D Platformer\2DPlatformer\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Refreshing native plugins compatible for Editor in 0.74 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 System.Exception: Error! Visual Scripting: couldn't find visual scripting package
-  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in C:\Unity Projects\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
-  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in C:\Unity Projects\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
-  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in C:\Unity Projects\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
-  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in C:\Unity Projects\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
-  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in C:\Unity Projects\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
-  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in C:\Unity Projects\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
-  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in C:\Unity Projects\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
-  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in C:\Unity Projects\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
-  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in C:\Unity Projects\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
-  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in C:\Unity Projects\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
+  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in C:\2D Platformer\2DPlatformer\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
+  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in C:\2D Platformer\2DPlatformer\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
+  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in C:\2D Platformer\2DPlatformer\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
+  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in C:\2D Platformer\2DPlatformer\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
+  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in C:\2D Platformer\2DPlatformer\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
+  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in C:\2D Platformer\2DPlatformer\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
+  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in C:\2D Platformer\2DPlatformer\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
+  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in C:\2D Platformer\2DPlatformer\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
+  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in C:\2D Platformer\2DPlatformer\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
+  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in C:\2D Platformer\2DPlatformer\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
 UnityEngine.StackTraceUtility:ExtractStackTrace ()
 UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
 UnityEngine.Logger:Log (UnityEngine.LogType,object)
@@ -206,40 +206,40 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.025 seconds
+- Completed reload, in  1.033 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1025ms)
-		BeginReloadAssembly (130ms)
+	ReloadAssembly (1034ms)
+		BeginReloadAssembly (131ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (44ms)
-		EndReloadAssembly (811ms)
-			LoadAssemblies (75ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (828ms)
+			LoadAssemblies (78ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (195ms)
+			SetupTypeCache (192ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (356ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (379ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
+				InitializePlatformSupportModulesInManaged (16ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (54ms)
-				ProcessInitializeOnLoadAttributes (257ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (270ms)
 				ProcessInitializeOnLoadMethodAttributes (25ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.23 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 2.34 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4053 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 25 unused Assets / (24.6 KB). Loaded Objects now: 4541.
 Memory consumption went from 151.6 MB to 151.6 MB.
-Total: 12.808900 ms (FindLiveObjects: 0.310500 ms CreateObjectMapping: 0.202100 ms MarkObjects: 12.257800 ms  DeleteObjects: 0.037100 ms)
+Total: 10.481300 ms (FindLiveObjects: 0.238200 ms CreateObjectMapping: 0.159100 ms MarkObjects: 10.049900 ms  DeleteObjects: 0.033400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -252,76 +252,266 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005552 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Unity Projects\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Unity Projects\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.01 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-System.Exception: Error! Visual Scripting: couldn't find visual scripting package
-  at Unity.VisualScripting.PackageVersionUtility.get_version () [0x00043] in C:\Unity Projects\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\PackageVersionUtility.cs:31 
-  at Unity.VisualScripting.BoltCoreManifest.get_version () [0x00000] in C:\Unity Projects\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugin\BoltCoreManifest.cs:11 
-  at Unity.VisualScripting.PluginManifest.get_currentVersion () [0x00000] in C:\Unity Projects\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:33 
-  at Unity.VisualScripting.PluginManifest.get_versionMismatch () [0x00000] in C:\Unity Projects\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginManifest.cs:48 
-  at Unity.VisualScripting.PluginContainer.Initialize () [0x00525] in C:\Unity Projects\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:208 
-  at Unity.VisualScripting.PluginContainer.InitializeOnLoad () [0x00009] in C:\Unity Projects\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Plugins\PluginContainer.cs:32 
-  at Unity.VisualScripting.VSUsageUtility.DoInitializeOnLoadCalls () [0x00034] in C:\Unity Projects\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:76 
-  at Unity.VisualScripting.VSUsageUtility.set_isVisualScriptingUsed (System.Boolean value) [0x0002c] in C:\Unity Projects\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:114 
-  at Unity.VisualScripting.VSUsageUtility.CheckAndSetIsVisualScriptingUsed () [0x0000d] in C:\Unity Projects\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:33 
-  at Unity.VisualScripting.VSUsageUtility..cctor () [0x00000] in C:\Unity Projects\Mario\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Utilities\VSUsageUtility.cs:22 
-UnityEngine.StackTraceUtility:ExtractStackTrace ()
-UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
-UnityEngine.Logger:Log (UnityEngine.LogType,object)
-UnityEngine.Debug:LogError (object)
-UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[])
-
-Mono: successfully reloaded assembly
-- Completed reload, in  1.120 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1121ms)
-		BeginReloadAssembly (128ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (52ms)
-		EndReloadAssembly (923ms)
-			LoadAssemblies (62ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (186ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (456ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (321ms)
-				ProcessInitializeOnLoadMethodAttributes (46ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.36 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4053 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (24.6 KB). Loaded Objects now: 4545.
-Memory consumption went from 151.6 MB to 151.6 MB.
-Total: 11.290400 ms (FindLiveObjects: 0.279300 ms CreateObjectMapping: 0.116200 ms MarkObjects: 10.862800 ms  DeleteObjects: 0.031300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 448.885849 seconds.
+  path: Assets/Prefabs/Banana.prefab
+  artifactKey: Guid(2480e0d83c1d1854f85aa7e62cff897c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Banana.prefab using Guid(2480e0d83c1d1854f85aa7e62cff897c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73b490cfec37f54d97002d6bb1c5362') in 0.116781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Prefabs/Flag.prefab
+  artifactKey: Guid(e65712d0edccb0f46aa56092b663bdd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Flag.prefab using Guid(e65712d0edccb0f46aa56092b663bdd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '394a769604233c5b2ef171e643dedba4') in 0.021377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefabs/PinkMan.prefab
+  artifactKey: Guid(41a9119eb7224f748afae05158162036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/PinkMan.prefab using Guid(41a9119eb7224f748afae05158162036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76cc3fe040ca4306c80ca672649aa827') in 0.088607 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 65.130307 seconds.
+  path: Assets/Tilemap Assets/floating L.asset
+  artifactKey: Guid(4c565ddc9302e874ca689b78e5755c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap Assets/floating L.asset using Guid(4c565ddc9302e874ca689b78e5755c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b61276ffeb18d898b6d8df92457bf59') in 0.017430 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Tilemap Assets/grass BC.asset
+  artifactKey: Guid(0255b5b231db50c44a10397a069a1b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap Assets/grass BC.asset using Guid(0255b5b231db50c44a10397a069a1b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ccd40b11c4f774e635d796021b2206e') in 0.010999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tilemap Assets/grass BR.asset
+  artifactKey: Guid(2b9aa7fa7f1c6a44cabb6c873c9700d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap Assets/grass BR.asset using Guid(2b9aa7fa7f1c6a44cabb6c873c9700d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '256e5ef11b275d86328a7c61010ff94c') in 0.009785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Tilemap Assets/grass CL.asset
+  artifactKey: Guid(a2cb33f496d6da64fb36891ad5dc5e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap Assets/grass CL.asset using Guid(a2cb33f496d6da64fb36891ad5dc5e81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94df15934444458e43d4ca83bcb41553') in 0.008352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013996 seconds.
+  path: Assets/Tilemap Assets/grass TL.asset
+  artifactKey: Guid(a75ee2581e776b8438d33acc7dd97725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap Assets/grass TL.asset using Guid(a75ee2581e776b8438d33acc7dd97725) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36bc74fedcde0a51cd6e6c7a0ae007f4') in 0.008744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013679 seconds.
+  path: Assets/Tilemap Assets/white rock.asset
+  artifactKey: Guid(597cada789048944ab92dc08bb897de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap Assets/white rock.asset using Guid(597cada789048944ab92dc08bb897de5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7944616c7818445a41b21ed2402709e6') in 0.009394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.309067 seconds.
+  path: Assets/Tilemap Assets/Main/Floatings/floating L.asset
+  artifactKey: Guid(070c063d2f0f56644a450a55500da942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap Assets/Main/Floatings/floating L.asset using Guid(070c063d2f0f56644a450a55500da942) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3eb0b788231920fc8641be8dfd14f3ec') in 0.005280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014039 seconds.
+  path: Assets/Tilemap Assets/Main/Floatings/Terrain (16x16)_11.asset
+  artifactKey: Guid(b9ef62fb940b4684aa1ba21e0e153ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap Assets/Main/Floatings/Terrain (16x16)_11.asset using Guid(b9ef62fb940b4684aa1ba21e0e153ff7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '605bbaa7d0bbea734e53b7bef6b8bcfe') in 0.007704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003935 seconds.
+  path: Assets/Tilemap Assets/Main/Floatings/Terrain (16x16)_14.asset
+  artifactKey: Guid(21232b227151abe4aacefb9c7b21c9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap Assets/Main/Floatings/Terrain (16x16)_14.asset using Guid(21232b227151abe4aacefb9c7b21c9d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458f339d76817f783297a6a9ce61f153') in 0.007810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004205 seconds.
+  path: Assets/Tilemap Assets/Main/Floatings/Terrain (16x16)_16.asset
+  artifactKey: Guid(8dfbe3eb1b05520458cd34b70be74c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap Assets/Main/Floatings/Terrain (16x16)_16.asset using Guid(8dfbe3eb1b05520458cd34b70be74c1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '139d539febcc9b633bbb93fcae9c5096') in 0.007566 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004980 seconds.
+  path: Assets/Tilemap Assets/Main/Floatings/Terrain (16x16)_44.asset
+  artifactKey: Guid(37189caecfcd7de40a6de80ee3900319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap Assets/Main/Floatings/Terrain (16x16)_44.asset using Guid(37189caecfcd7de40a6de80ee3900319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f985dd64e46ea23ccade7c408e5bc1da') in 0.007748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004267 seconds.
+  path: Assets/Tilemap Assets/Main/Floatings/Terrain (16x16)_56.asset
+  artifactKey: Guid(03c4d2266dbcb6e46a68ff3e34e9151e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap Assets/Main/Floatings/Terrain (16x16)_56.asset using Guid(03c4d2266dbcb6e46a68ff3e34e9151e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '100f08aec61668c06e914a8bf0859b38') in 0.007354 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004604 seconds.
+  path: Assets/Tilemap Assets/Main/Floatings/Terrain (16x16)_58.asset
+  artifactKey: Guid(b3ea8121c74767f4985cc699135135a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap Assets/Main/Floatings/Terrain (16x16)_58.asset using Guid(b3ea8121c74767f4985cc699135135a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c08f6d6329975796cbac38ee26e98a0') in 0.007858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003714 seconds.
+  path: Assets/Tilemap Assets/Main/Floatings/Terrain (16x16)_107.asset
+  artifactKey: Guid(090c17edaa653e440af2be02211f92ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap Assets/Main/Floatings/Terrain (16x16)_107.asset using Guid(090c17edaa653e440af2be02211f92ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c2150fdedebe150950702e2017997be') in 0.007899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004553 seconds.
+  path: Assets/Tilemap Assets/Main/Floatings/Terrain (16x16)_110.asset
+  artifactKey: Guid(628433b58b597ee41a70e4240304c7e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap Assets/Main/Floatings/Terrain (16x16)_110.asset using Guid(628433b58b597ee41a70e4240304c7e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebe3c7f5900043974aaaeec54d0bad60') in 0.007773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003997 seconds.
+  path: Assets/Tilemap Assets/Main/Floatings/Terrain (16x16)_112.asset
+  artifactKey: Guid(c089496ad1b1cee4da13c1cc6e9e3959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap Assets/Main/Floatings/Terrain (16x16)_112.asset using Guid(c089496ad1b1cee4da13c1cc6e9e3959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c504825b90d8ea28e847521ed2892a7c') in 0.010157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.401624 seconds.
+  path: Assets/Tilemap Assets/Main/Grounds/grass BR.asset
+  artifactKey: Guid(930522f230083c94bb2e6c9cb9744ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap Assets/Main/Grounds/grass BR.asset using Guid(930522f230083c94bb2e6c9cb9744ae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '533e0d7cf8973112a34018bdf2acfbf2') in 0.008019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002713 seconds.
+  path: Assets/Tilemap Assets/Main/Grounds/grass CL.asset
+  artifactKey: Guid(45ff9c91afce135478e92d31ba956d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap Assets/Main/Grounds/grass CL.asset using Guid(45ff9c91afce135478e92d31ba956d34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0470434352b677ed1a5135dd22344e01') in 0.005411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005964 seconds.
+  path: Assets/Tilemap Assets/Main/Grounds/grass TC.asset
+  artifactKey: Guid(4ad22691bd15dff458b784107c4cd3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap Assets/Main/Grounds/grass TC.asset using Guid(4ad22691bd15dff458b784107c4cd3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c133c67cb23e7d1b6aae5647cb8202a8') in 0.005192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.015643 seconds.
+  path: Assets/Tilemap Assets/Main/Grounds/pink BC.asset
+  artifactKey: Guid(eff8ef5a2b602f4498a8a3410d3045df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap Assets/Main/Grounds/pink BC.asset using Guid(eff8ef5a2b602f4498a8a3410d3045df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a55b347ae139a0f9128be1460c23d00c') in 0.007939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003661 seconds.
+  path: Assets/Tilemap Assets/Main/Grounds/pink BR.asset
+  artifactKey: Guid(3cff4fac9459a57448f542311b0fe3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap Assets/Main/Grounds/pink BR.asset using Guid(3cff4fac9459a57448f542311b0fe3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa7aba12c703b1b4c5cea3e9dd2eb58') in 0.007508 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004096 seconds.
+  path: Assets/Tilemap Assets/Main/Grounds/pink CL.asset
+  artifactKey: Guid(d69bed59c44551243925b035aa24f9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap Assets/Main/Grounds/pink CL.asset using Guid(d69bed59c44551243925b035aa24f9cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbfeec5f39ca4506e9188b622eadb7dd') in 0.007584 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003618 seconds.
+  path: Assets/Tilemap Assets/Main/Grounds/pink TC.asset
+  artifactKey: Guid(7993fcd9980ff9d4da2e792a9c121249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap Assets/Main/Grounds/pink TC.asset using Guid(7993fcd9980ff9d4da2e792a9c121249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a7138a902e601871eee6800d8f8eec9') in 0.007509 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003449 seconds.
+  path: Assets/Tilemap Assets/Main/Grounds/pink TR.asset
+  artifactKey: Guid(47ca4ea84b4f13848841c794e8ba72cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap Assets/Main/Grounds/pink TR.asset using Guid(47ca4ea84b4f13848841c794e8ba72cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '354d3aead223b5c83f5143f2f90353c6') in 0.008297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002891 seconds.
+  path: Assets/Tilemap Assets/Main/Grounds/Terrain (16x16)_47.asset
+  artifactKey: Guid(0e2dd3bc1101dd64d9af7b4b57f11292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap Assets/Main/Grounds/Terrain (16x16)_47.asset using Guid(0e2dd3bc1101dd64d9af7b4b57f11292) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '820907f899170f788e6fe641b88d8a1a') in 0.007712 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003297 seconds.
+  path: Assets/Tilemap Assets/Main/Grounds/Terrain (16x16)_65.asset
+  artifactKey: Guid(3240023fa8896c24ea45d8e4de837c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap Assets/Main/Grounds/Terrain (16x16)_65.asset using Guid(3240023fa8896c24ea45d8e4de837c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaecd0d31b1b8c98d5d90a1d267ea463') in 0.008271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002965 seconds.
+  path: Assets/Tilemap Assets/Main/Grounds/Terrain (16x16)_67.asset
+  artifactKey: Guid(bd2b715a928f8fb4d8f6b99bb96dadea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap Assets/Main/Grounds/Terrain (16x16)_67.asset using Guid(bd2b715a928f8fb4d8f6b99bb96dadea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be3991139a519e0c00f468cc2d8f13b0') in 0.007717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.797924 seconds.
+  path: Assets/Tilemap Assets/Main/Grounds/Terrain (16x16)_86.asset
+  artifactKey: Guid(d199ccc564477e14ca9c493065f30e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap Assets/Main/Grounds/Terrain (16x16)_86.asset using Guid(d199ccc564477e14ca9c493065f30e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec9806ad4626a198261aedb2d42813c') in 0.008034 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003056 seconds.
+  path: Assets/Tilemap Assets/Main/Grounds/Terrain (16x16)_97.asset
+  artifactKey: Guid(f67a8e0626d54c84dbd9559cfdb180cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap Assets/Main/Grounds/Terrain (16x16)_97.asset using Guid(f67a8e0626d54c84dbd9559cfdb180cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5efb0a3a017e95da8fafd189167efc9') in 0.008798 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003550 seconds.
+  path: Assets/Tilemap Assets/Main/Grounds/Terrain (16x16)_114.asset
+  artifactKey: Guid(fb02a041f9765f04bbb585c5cb0673e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap Assets/Main/Grounds/Terrain (16x16)_114.asset using Guid(fb02a041f9765f04bbb585c5cb0673e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac6fee5bfa575389b3564182ac733bc6') in 0.007614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.043764 seconds.
+  path: Assets/Tilemap Assets/Main/Grounds/Terrain (16x16)_116.asset
+  artifactKey: Guid(d38e026acfc516e49875ca9757c4ea66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap Assets/Main/Grounds/Terrain (16x16)_116.asset using Guid(d38e026acfc516e49875ca9757c4ea66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f860eea030cc14ccec28f0efe358c7b2') in 0.007964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003196 seconds.
+  path: Assets/Tilemap Assets/Main/Grounds/Terrain (16x16)_133.asset
+  artifactKey: Guid(a846b3c0d2c34524b98fe2433692b1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap Assets/Main/Grounds/Terrain (16x16)_133.asset using Guid(a846b3c0d2c34524b98fe2433692b1ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ca0b23b3874a81e49c4842374067771') in 0.009058 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004395 seconds.
+  path: Assets/Tilemap Assets/Main/Grounds/white rock BC.asset
+  artifactKey: Guid(8dc3bc93203c4874cb85cb6d4058b0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap Assets/Main/Grounds/white rock BC.asset using Guid(8dc3bc93203c4874cb85cb6d4058b0ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a9ac747cde2bc6db35fd40e1c8cc295') in 0.007602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.050825 seconds.
+  path: Assets/Tilemap Assets/Main/Grounds/white rock BR.asset
+  artifactKey: Guid(2aa0bf8734a52224bb5d651084ba06eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap Assets/Main/Grounds/white rock BR.asset using Guid(2aa0bf8734a52224bb5d651084ba06eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd64302d72a5351ad159ad4a836fd39b') in 0.007781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003868 seconds.
+  path: Assets/Tilemap Assets/Main/Grounds/white rock CL.asset
+  artifactKey: Guid(e99f610ec33b8864c9f6230d55d0a6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap Assets/Main/Grounds/white rock CL.asset using Guid(e99f610ec33b8864c9f6230d55d0a6a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '119b014d7194683b34c42b299193ea61') in 0.008004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003517 seconds.
+  path: Assets/Tilemap Assets/Main/Grounds/white rock TC.asset
+  artifactKey: Guid(6fd6696ce00c5b9469ad5a61faa2ee25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap Assets/Main/Grounds/white rock TC.asset using Guid(6fd6696ce00c5b9469ad5a61faa2ee25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb4195da0141c092443766e75ad992d') in 0.007612 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.046172 seconds.
+  path: Assets/Tilemap Assets/Main/Grounds/white rock TR.asset
+  artifactKey: Guid(7b1278758366b8b469b4f49ac894ea0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap Assets/Main/Grounds/white rock TR.asset using Guid(7b1278758366b8b469b4f49ac894ea0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eda4f0efb2d297096f92dc026af8ea4') in 0.008317 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003501 seconds.
+  path: Assets/Tilemap Assets/Main/Grounds/yellow BL.asset
+  artifactKey: Guid(ce4259d9b9695e343ba5c318fb349b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap Assets/Main/Grounds/yellow BL.asset using Guid(ce4259d9b9695e343ba5c318fb349b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '180770201536e033be22953af3f568f5') in 0.008203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004075 seconds.
+  path: Assets/Tilemap Assets/Main/Grounds/yellow CC.asset
+  artifactKey: Guid(f01eebe29c6867046b7e387b225e93e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap Assets/Main/Grounds/yellow CC.asset using Guid(f01eebe29c6867046b7e387b225e93e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7701a0a75828d9085a144a7d159c9750') in 0.007959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.050072 seconds.
+  path: Assets/Tilemap Assets/Main/Grounds/yellow CR.asset
+  artifactKey: Guid(19af5fce8f7f4654d89f81aa82d401e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap Assets/Main/Grounds/yellow CR.asset using Guid(19af5fce8f7f4654d89f81aa82d401e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a5154105734b6da4cb3b5903977bcca') in 0.009217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003117 seconds.
+  path: Assets/Tilemap Assets/Main/Grounds/yellow TL.asset
+  artifactKey: Guid(ea09209a90d826e4e83649388a55a887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tilemap Assets/Main/Grounds/yellow TL.asset using Guid(ea09209a90d826e4e83649388a55a887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903c11e8b90863795707bef92c65b5f6') in 0.008221 seconds 
